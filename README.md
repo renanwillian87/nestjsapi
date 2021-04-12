@@ -37,9 +37,12 @@ $ npx @nestjs/cli new nest-api
 ```bash
 $ docker-compose exec app bash
 ```
-within docker-compose
+
 ```bash
 $ nest g resource routes
+$ npm install mongoose @nestjs/mongoose --save
+$ npm install @nestjs/config --save
+$ npm install kafkajs @nestjs/microservices --save
 ```
 
 ## Installation
